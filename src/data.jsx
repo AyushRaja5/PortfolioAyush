@@ -10,9 +10,9 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import {SiPython,SiReact,SiMongodb,SiHtml5,SiCss3,SiJavascript,SiMysql,SiPowerbi,SiTableau} from 'react-icons/si';
-import {LuBrainCircuit} from 'react-icons/lu'
-import {TbBrandCpp,TbCode,TbReportAnalytics} from 'react-icons/tb'
+import { SiPython, SiReact, SiMongodb, SiHtml5, SiCss3, SiJavascript, SiMysql, SiPowerbi, SiTableau } from 'react-icons/si';
+import { LuBrainCircuit } from 'react-icons/lu'
+import { TbBrandCpp, TbCode, TbReportAnalytics } from 'react-icons/tb'
 
 import Work1 from './assets/project-1.png';
 import Work2 from './assets/project-2.png';
@@ -21,6 +21,7 @@ import Work4 from './assets/project-4.png';
 import Work5 from './assets/project-5.png';
 import Work6 from './assets/project-6.jpg';
 import Work7 from './assets/project-7.jpg';
+
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -36,7 +37,8 @@ import Theme10 from './assets/yellow.png';
 import lpu from './assets/LPU.png';
 import cps from './assets/cps.jpg'
 
-import video1 from '../../../homieapp/homie/linkedIn.mp4'
+// import video1 from '../../../homieapp/homie/linkedIn.mp4'
+import video1 from "../../../homieapp/homie/linkedIn.mp4"
 import video2 from '../../../travel/linkedInVideo.mp4'
 import video3 from '../../../../LatentView Courses/SharkTank/sharkTank.mp4'
 
@@ -45,7 +47,7 @@ export const links = [
   {
     id: 1,
     name: 'Home',
-    icon: <FaHome className='nav_icon'/>,
+    icon: <FaHome className='nav_icon' />,
     path: '/',
   },
 
@@ -146,13 +148,13 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no:2,
+    no: 2,
     title: 'Years of Experience',
   },
 
   {
     id: 2,
-    no: 10,
+    no: 20,
     title: 'Completed Projects',
   },
   {
@@ -200,95 +202,95 @@ export const resume = [
 export const skills = [
   {
     id: 1,
-    logo:<SiHtml5 font-size='30px'/>,
+    logo: <SiHtml5 font-size='30px' />,
     title: 'Html',
     percentage: 80,
   },
 
   {
     id: 2,
-    logo: <SiJavascript font-size='30px'/>,
+    logo: <SiJavascript font-size='30px' />,
     title: 'Javascript',
     percentage: 60,
   },
 
   {
     id: 3,
-    logo : <SiCss3 font-size='30px'/>,
+    logo: <SiCss3 font-size='30px' />,
     title: 'Css',
     percentage: 70,
   },
 
   {
     id: 4,
-    logo : <SiReact font-size='30px'/>,
+    logo: <SiReact font-size='30px' />,
     title: 'React Js',
     percentage: 60,
   },
 
   {
     id: 5,
-    logo:<FaNodeJs font-size='30px'/>,
+    logo: <FaNodeJs font-size='30px' />,
     title: 'Node Js',
     percentage: 55,
   },
 
   {
     id: 6,
-    logo:<SiMongodb font-size='30px'/>,
+    logo: <SiMongodb font-size='30px' />,
     title: 'Mongo Db',
     percentage: 36,
   },
 
   {
     id: 7,
-    logo: <TbBrandCpp font-size='30px'/>,
+    logo: <TbBrandCpp font-size='30px' />,
     title: 'C++',
     percentage: 65,
   },
 
   {
     id: 8,
-    logo: <TbCode font-size='40px'/>,
+    logo: <TbCode font-size='40px' />,
     title: 'DSA',
     percentage: 60,
   },
   {
     id: 9,
-    logo: <SiPython font-size='30px'/>,
+    logo: <SiPython font-size='30px' />,
     title: 'Python',
     percentage: 55,
   },
 
   {
-    id:10,
-    logo: <LuBrainCircuit font-size='30px'/>,
+    id: 10,
+    logo: <LuBrainCircuit font-size='30px' />,
     title: 'AI & ML',
     percentage: 45,
   },
   {
     id: 11,
-    logo: <SiMysql font-size='30px'/>,
+    logo: <SiMysql font-size='30px' />,
     title: 'My SQL',
     percentage: 55,
   },
 
   {
     id: 12,
-    logo: <SiPowerbi font-size='30px'/>,
+    logo: <SiPowerbi font-size='30px' />,
     title: 'Power Bi',
     percentage: 85,
   },
   {
     id: 13,
-    logo: <SiTableau font-size='30px'/>,
+    logo: <SiTableau font-size='30px' />,
     title: 'Tableau',
     percentage: 73,
   },
 
   {
     id: 14,
-    logo: <TbReportAnalytics font-size='30px'/>,
+    logo: <TbReportAnalytics font-size='30px' />,
     title: 'Data Analytics',
     percentage: 80,
   },
@@ -299,9 +301,9 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    vd : video1,
+    // vd: video1,
     title: 'Homie MERN Web App',
-    site : 'https://homieayush.netlify.app/',
+    site: 'https://homieayush.netlify.app/',
     details: [
       {
         icon: <FiFileText />,
@@ -329,8 +331,8 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    vd: video3,
-    site:'https://github.com/AyushRaja5/Power-BI/blob/main/Shark%20Tank%20India.pbix',
+    // vd: video3,
+    site: 'https://github.com/AyushRaja5/Power-BI/blob/main/Shark%20Tank%20India.pbix',
     title: 'Power BI dashBoard',
     details: [
       {
@@ -359,8 +361,8 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    vd: video2,
-    site:'https://travelingayush.netlify.app/',
+    // vd: video2,
+    site: 'https://travelingayush.netlify.app/',
     title: 'MERN Web App',
     details: [
       {
@@ -418,7 +420,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    site:'https://ayushrajaportfolio.netlify.app/',
+    site: 'https://ayushrajaportfolio.netlify.app/',
     title: 'Portfolio Web App',
     details: [
       {
@@ -443,7 +445,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    site:'https://github.com/AyushRaja5/Machine-Learning',
+    site: 'https://github.com/AyushRaja5/Machine-Learning',
     title: 'Car Number Plate Extracter',
     details: [
       {
@@ -471,7 +473,7 @@ export const portfolio = [
   {
     id: 7,
     img: Work7,
-    site:'https://github.com/AyushRaja5/',
+    site: 'https://github.com/AyushRaja5/',
     title: 'Bluetooth Car',
     details: [
       {
@@ -493,6 +495,35 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: 'Car built by bluetooth & arduino to operate via mobile phone.',
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work1,
+    vd: video1,
+    title: 'Homie MERN Web App',
+    site: 'https://homieayush.netlify.app/',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Web App',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Date : ',
+        desc: '2021',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React Js, AOS, CSS, SwiperSlide',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'homieayush Web App',
       },
     ],
   },

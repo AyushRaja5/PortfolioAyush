@@ -29,7 +29,7 @@ const Home = () => {
                 autoStart: true,
                 loop: true,
                 pause:1000,
-                // wrapperClassName:'writter'
+                wrapperClassName:'writter'
               }}
             />
           </h1>
