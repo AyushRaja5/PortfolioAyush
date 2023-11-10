@@ -501,7 +501,7 @@ export const portfolio = [
   {
     id: 8,
     img: Work1,
-    vd: video1,
+    // vd: video1,
     title: 'Homie MERN Web App',
     site: 'https://homieayush.netlify.app/',
     details: [
