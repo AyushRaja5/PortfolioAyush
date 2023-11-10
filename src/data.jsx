@@ -38,9 +38,9 @@ import lpu from './assets/LPU.png';
 import cps from './assets/cps.jpg'
 
 // import video1 from '../../../homieapp/homie/linkedIn.mp4'
-import video1 from "../../../homieapp/homie/linkedIn.mp4"
-import video2 from '../../../travel/linkedInVideo.mp4'
-import video3 from '../../../../LatentView Courses/SharkTank/sharkTank.mp4'
+// import video1 from "../../../homieapp/homie/linkedIn.mp4"
+// import video2 from '../../../travel/linkedInVideo.mp4'
+// import video3 from '../../../../LatentView Courses/SharkTank/sharkTank.mp4'
 
 
 export const links = [
