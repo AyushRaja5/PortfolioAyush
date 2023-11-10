@@ -19,7 +19,7 @@ const Home = () => {
         <div className="home_data">
           <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" className='home_title'>
             <span className='ayush'>
-              Hello<span class="wave">👋</span> <br />
+              Hii<span class="wave">👋</span> <br />
               I am Ayush Raja.<br />
             </span>
             <Typewriter
