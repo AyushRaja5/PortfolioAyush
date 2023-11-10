@@ -155,7 +155,6 @@ export const stats = [
     no: 10,
     title: 'Completed Projects',
   },
-
   {
     id: 3,
     no: 20,
@@ -170,8 +169,6 @@ export const stats = [
 ];
 
 export const resume = [
-
-
   {
     id: 1,
     category: 'education',
